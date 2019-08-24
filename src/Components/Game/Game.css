@@ -5,10 +5,12 @@
     box-sizing: border-box;
 }
 .game {
+    margin-top: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .gameBoard {
     width: 300px;
@@ -54,4 +56,9 @@
 .square:nth-child(3n) {
     border-right: 0;
 
+}
+.title {
+    font-size: 35px;
+    padding: 15px;
+    
 }
