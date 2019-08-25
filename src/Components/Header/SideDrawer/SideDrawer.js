@@ -18,10 +18,10 @@ const SideDrawer = (props) => {
                     <Link to='/' onClick={() => props.closeBackdrop()}>Rules</Link>
                 </li>
                 <li>
-                    <Link to='/game' onClick={() => props.closeBackdrop()}>Game</Link>
+                    <Link to='/game' onClick={() => props.closeBackdrop()}>Two Player Game</Link>
                 </li>
                 <li>
-                    <Link to='/test_game' onClick={() => props.closeBackdrop()}>Test Game</Link>
+                    <Link to='/test_game' onClick={() => props.closeBackdrop()}>Play Against the Computer</Link>
                 </li>
             </ul>
         </nav>

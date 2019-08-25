@@ -19,10 +19,10 @@ const Menu = (props) => (
                         <Link to='/'>Rules</Link>
                     </li>
                     <li>
-                        <Link to='/game'>Game</Link>
+                        <Link to='/game'>Two Player Game</Link>
                     </li>
                     <li>
-                        <Link to='/test_game'>Test Game</Link>
+                        <Link to='/test_game'>Play Against the Computer</Link>
                     </li>
                 </ul>
             </div>

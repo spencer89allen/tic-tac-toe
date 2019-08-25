@@ -1,3 +1,22 @@
 .reset {
-    margin-top: 70vh;
+    margin: 10px;
+    padding: 5px;
+    float: right;
 }
+.reset > button {
+    background-color: #0DD1BF;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.reset > button:hover {
+    background-color: yellow;
+    color: black;
+  }

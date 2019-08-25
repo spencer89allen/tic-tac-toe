@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 70%;
+    width: 50%;
     max-width: 400px;
     z-index: 200;
     transform: translateX(-105%);
@@ -26,14 +26,14 @@
     margin: 0.5rem 0;
 }
 .sideDrawer a {
-    color: #521571;
+    color: #000000;
     text-decoration: none;
     font-size: 1.2rem;
 
 }
 .sideDrawer a:hover,
 .sideDrawer a:active {
-    color: #fa923f;
+    color: #0DD1BF;
 }
 @media ( min-width: 769px ) {
     .sideDrawer {
