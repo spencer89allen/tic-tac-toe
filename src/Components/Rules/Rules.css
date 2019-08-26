@@ -10,13 +10,10 @@
     margin: 50px;
 
 }
+.button {
+    float: right;
+}
 @media (max-width: 425px) {
-    .rules {
-        /* text-align: center; */
-        /* margin: 2vh; */
-
-
-    }
     .textBox > p {
         margin: 10px;
         font-size: 1rem;

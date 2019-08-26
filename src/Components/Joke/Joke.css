@@ -1,0 +1,60 @@
+.footer {
+    width: 100vw;
+    height: 25vh;
+    background: #0DD1BF;
+    border-top: 3px solid black;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.joke {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.joke > p {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: large;
+
+}
+.newJokeButton {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.newJokeButton > button {
+    background-color: #D10D81;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+@media (max-width: 425px) {
+    .footer {
+        height: 30vh; 
+    }
+    .joke > p {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        font-size: small;
+    }
+}
