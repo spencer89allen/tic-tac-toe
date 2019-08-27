@@ -11,7 +11,7 @@ const Menu = (props) => (
             <div className='toggleButton'>
                 <SideDrawerToggleButton drawerToggle={props.drawerToggle}/>
             </div>
-            <div className='menu_logo'><a href="/">Tic Tac Toe</a></div>
+            <div className='menu_logo'><a href="/">TIC-TAC-TOE</a></div>
             <div className='spacer'></div>
             <div className='menu_items'>
                 <ul>

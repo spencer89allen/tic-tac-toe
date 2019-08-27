@@ -4,7 +4,8 @@
     left: 0;
     width: 100%;
     height: 15vh;
-    background: #0DD1BF;
+    background:#2C3E50;
+    /* border-bottom: 3px solid black; */
 }
 .menu_nav {
     height: 100%;
@@ -16,9 +17,11 @@
     margin-left: 1rem;
 }
 .menu_logo a {
-    color: #000000;
+    color: white;
     text-decoration: none;
     font-size: 1.5rem;
+    font-style: "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
 
 }
 .spacer {
@@ -34,14 +37,21 @@
     padding: 0 0.5rem;
 }
 .menu_items a {
-    color: #000000;
+    color: white;
     text-decoration: none;
     margin: 10px;
+    font-style: "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
 
 }
 .menu_items a:hover,
 .menu_items a:active {
-    color: white;
+    color: #E67E22  ;
+}
+.menu_logo a:hover {
+    color: #E67E22;
+    
+
 }
 @media (max-width: 768px) {
     .menu_items {

@@ -8,32 +8,39 @@ class Joke extends Component {
 
 
     state = {
-        joke: '',
-
+        seinfeldQuotes: '',
+        author: '',
     }
+
+
 
     componentDidMount() {
-        this.handleChuckJoke();
+        this.handleGetQuote();
     }
 
-    handleChuckJoke() {
-        axios.get('http://api.icndb.com/jokes/random').then(results => {
+    handleGetQuote() {
+        axios.get('https://seinfeld-quotes.herokuapp.com/random').then(res => {
             this.setState({
-                joke: results.data.value.joke
+                seinfeldQuotes: res.data.quote,
+                author: res.data.author,
             })
         })
     }
 
+
     render() {
-        console.log(this.state.joke)
+        console.log(this.state)
 
         return (
             <div className='footer'>
                 <div className='joke'>
-                    <p>{this.state.joke}</p>
+                    <h1>Bored with Tic Tac Toe? </h1>
+                    <br />
+                    <h4>{this.state.seinfeldQuotes}</h4>
+                    <p>-{this.state.author}</p>
                 </div>
                 <div className='newJokeButton'>
-                    <button onClick={() => this.handleChuckJoke()}>New Joke</button>
+                    <button onClick={() => this.handleGetQuote()}>Find New Quote</button>
                 </div>
             </div>
         )
